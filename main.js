@@ -12,7 +12,7 @@ let resultInput = document.querySelector(".result-input");
 function res() {
   if (event.target.className === "plus" && numberTwo.value !== "") {
     resultInput.value = Number(numberOne.value) + Number(numberTwo.value);
-    alert("ангелина лох");
+    alert("Ангелина лох")
   } else if (event.target.className === "minus" && numberTwo.value !== "") {
     resultInput.value = Number(numberOne.value) - Number(numberTwo.value);
   } else if (event.target.className === "ymn" && numberTwo.value !== "") {
